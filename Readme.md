@@ -15,5 +15,11 @@ db.scores.find();
 MongoDB is available through the popular OS X package manager Homebrew or through the MongoDB Download site.
 
 Download the binary files for the latest MongoDB release.
-Donwload binaries from [here](https://mongodb.org/downloads)
+Donwload binaries from [here](https://mongodb.org/downloads).
+
+For example, to download the latest release through the shell, issue the following:
+```
+curl -O http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.6.4.tgz
+```
+
 
