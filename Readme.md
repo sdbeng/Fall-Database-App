@@ -21,5 +21,10 @@ For example, to download the latest release through the shell, issue the followi
 ```
 curl -O http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.6.4.tgz
 ```
-
+##Extract the files from the downloaded archive
+From a system shell, you can use the *tar* command:
+```
+tar --zxvf mongodb-osx-x86_64-2.6.4.tgz
+```
+##foo
 
