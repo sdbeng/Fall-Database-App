@@ -57,7 +57,8 @@ To run MongoDB, run the mongod process at the system prompt. If neccessary, spec
 
 mongod
 
-or specify path
+or specify path:
+
 mongod --dbpath=/data/db
 
 ##Start mongo shell
