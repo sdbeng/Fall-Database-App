@@ -32,5 +32,12 @@ Copy the extracted folder to the location from which MongoDB will run.
 mkdir -p mongodb
 cp -R -n mongodb-osx-x86_64-2.6.4/ mongodb
 ```
+##Ensure the location of the binaries is in the PATH variable
+The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.
+You can add the following line to your shell's rc file (e.g.~/.bashrc):
+```
+export PATH=<mongodb-install-directory>/bin:$PATH
+```
+Replace <mongodb-install-directory> with the path to the extracted MongoDB archive.
 ##foo
 
