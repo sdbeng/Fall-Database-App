@@ -49,5 +49,8 @@ The following example command creates the default /data/db directory:
 ```
 mkdir -p /data/db
 ```
+##Set permissions for the data directory
+Before running mongod for the first time, ensure that the user account running mongod has read and write permissions for the directory.
+
 ##foo
 
