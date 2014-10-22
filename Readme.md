@@ -55,9 +55,7 @@ Before running mongod for the first time, ensure that the user account running m
 ##Run MongoDB
 To run MongoDB, run the mongod process at the system prompt. If neccessary, specify the path of the mongod or the data directory. ```
 mongod
-```
-Specify path
-```
+//or specify path
 mongod --dbpath=/data/db
 ```
 ##Start mongo shell
