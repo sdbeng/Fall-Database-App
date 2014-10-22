@@ -60,5 +60,11 @@ Specify path
 ```
 mongod --dbpath=/data/db
 ```
-
+##Start mongo shell
+```
+mongo
+```
+##Troubleshooting
+Review guidelines and test reinstalling the binaries into a diff folder.
+*By Serg*
 
