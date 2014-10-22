@@ -39,5 +39,15 @@ You can add the following line to your shell's rc file (e.g.~/.bashrc):
 export PATH=<mongodb-install-directory>/bin:$PATH
 ```
 Replace <mongodb-install-directory> with the path to the extracted MongoDB archive.
+
+##Run MongoDB
+###Create the data directory
+Before you start MongoDB for the first time, create the directory to which the mongod process will write data. By default, the mongod process uses the /data/db directory. If you create a directory other than this one, you must specify that directory in the dbpath option when starting the mongod process later in this procedure. 
+Note: In local development only, try with root if it doesn't work with your username.
+
+The following example command creates the default /data/db directory:
+```
+mkdir -p /data/db
+```
 ##foo
 
