@@ -26,5 +26,11 @@ From a system shell, you can use the *tar* command:
 ```
 tar --zxvf mongodb-osx-x86_64-2.6.4.tgz
 ```
+##Copy the extracted archive to the target directory
+Copy the extracted folder to the location from which MongoDB will run.
+```
+mkdir -p mongodb
+cp -R -n mongodb-osx-x86_64-2.6.4/ mongodb
+```
 ##foo
 
