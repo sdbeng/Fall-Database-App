@@ -14,5 +14,6 @@ db.scores.find();
 ##Install MongoDB on OS X
 MongoDB is available through the popular OS X package manager Homebrew or through the MongoDB Download site.
 
-
+Download the binary files for the latest MongoDB release.
+Donwload binaries from [here](https://mongodb.org/downloads)
 
