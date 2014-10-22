@@ -53,11 +53,13 @@ mkdir -p /data/db
 Before running mongod for the first time, ensure that the user account running mongod has read and write permissions for the directory.
 
 ##Run MongoDB
-To run MongoDB, run the mongod process at the system prompt. If neccessary, specify the path of the mongod or the data directory. ```
+To run MongoDB, run the mongod process at the system prompt. If neccessary, specify the path of the mongod or the data directory.
+
 mongod
-//or specify path
+
+or specify path
 mongod --dbpath=/data/db
-```
+
 ##Start mongo shell
 
 mongo
