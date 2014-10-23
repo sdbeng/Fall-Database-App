@@ -24,13 +24,13 @@ curl -O http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.6.4.tgz
 ##Extract the files from the downloaded archive
 From a system shell, you can use the *tar* command:
 ```
-tar --zxvf mongodb-osx-x86_64-2.6.4.tgz
+tar xvf mongodb-osx-x86_64-2.6.4.tgz //--zxvf gives error
 ```
 ##Copy the extracted archive to the target directory
 Copy the extracted folder to the location from which MongoDB will run.
 ```
 mkdir -p mongodb
-cp -R -n mongodb-osx-x86_64-2.6.4/ mongodb
+cp -R -n mongodb-osx-x86_64-2.6.5/ mongodb
 ```
 ##Ensure the location of the binaries is in the PATH variable
 The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.
@@ -67,5 +67,8 @@ mongo
 
 ##Troubleshooting
 Review guidelines and test reinstalling the binaries into a diff folder.
+
+##Custom startup at boot time
+You can create a conf file to get the mongod server started and also declare the dbpath if there is a custom data/db path to save data.
 *By Serg*
 
